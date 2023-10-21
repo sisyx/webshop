@@ -70,7 +70,7 @@ function Product() {
         })
 
 
-        navigate('/cart')
+        navigate('/webshop/cart')
     }
 
     return (

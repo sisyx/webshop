@@ -35,7 +35,7 @@ function Authentication() {
                 return
             }
         }
-        navigate('/shipping')
+        navigate('/webshop/shipping')
     }
 
     return (

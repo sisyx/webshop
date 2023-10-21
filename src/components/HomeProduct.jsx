@@ -32,7 +32,7 @@ export default function HomeProduct({dispatch}) {
                         
                             topProducts.map((product, index) => 
 
-                                <Link className={styles.productCard} to={`/product?id=${product.id}`} key={`hp${index + 5}`}>
+                                <Link className={styles.productCard} to={`product?id=${product.id}`} key={`hp${index + 5}`}>
                                     <div className={styles.upProductCard}>
                                         <Img src={product.imgSrc} />
                                     </div>
@@ -51,7 +51,7 @@ export default function HomeProduct({dispatch}) {
 
                         {
                             bottomProducts.map((product, index) => 
-                                <Link className={styles.productCard} to={`/product?id=${product.id}`} key={`hp${index + 5}`}>
+                                <Link className={styles.productCard} to={`product?id=${product.id}`} key={`hp${index + 5}`}>
                                     <div className={styles.upProductCard}>
                                         <Img src={product.imgSrc} />
                                     </div>

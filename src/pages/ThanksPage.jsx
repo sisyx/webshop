@@ -146,7 +146,7 @@ function ThanksPage() {
             <div className={styles.buttonThanks}>
             <button onClick={e =>{
                 dispatch({type: 'pay'})
-                navigate('/')
+                navigate('/webshop')
             } 
             } className={styles.button}>Back to Shopping
 

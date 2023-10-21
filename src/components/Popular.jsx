@@ -34,7 +34,7 @@ function Popular() {
                     .slice(0, 4)
                     .map(product => 
 
-                        <Link className={styles.productCard_Popular} to={`/product?id=${product.id}`}  key={`popP${product.id}`}>
+                        <Link className={styles.productCard_Popular} to={`product?id=${product.id}`}  key={`popP${product.id}`}>
 
                             <Img src="/images/image 3.svg" />
 

@@ -1,5 +1,4 @@
 import { useContext } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { StateContext } from '../Contexts/Conetxts';
 import Img from './Img';
 import styles from './CartJr.module.css'
@@ -7,7 +6,6 @@ function CartJr({cls='', mbcls=''}) {
 
     const { state, goBack } = useContext(StateContext);
     const { cart } = state
-    const navigate = useNavigate();
     const selectedProduct = cart.at(0)
 
     const totalPrice = cart.reduce((sum, cur) => sum+(cur.price * cur.count), 0).toFixed(2)

@@ -52,7 +52,17 @@ function App() {
           <Route path='/webshop/shipping' element={<ShippingPage />} />
           <Route path='/webshop/payment' element={<PaymentPage />} />
           <Route path='/webshop/thanks' element={<ThanksPage />} />
-          <Route path='*' element={<h1>Page Not Found</h1>} />
+          <Route path='*' element={
+          <>
+            <br/>
+            <br/>
+            <br/>
+            <h1>Page Not Found</h1>
+            <br/>
+            <br/>
+            <br/>
+          </>
+            } />
         </Routes>
       </StateContext.Provider>
       <Footer />

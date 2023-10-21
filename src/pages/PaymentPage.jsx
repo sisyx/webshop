@@ -22,7 +22,7 @@ function PaymentPage() {
                 return
             }
         }
-        navigate('/thanks')
+        navigate('/webshop/thanks')
     }
 
 

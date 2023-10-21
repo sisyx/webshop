@@ -15,7 +15,7 @@ function CardPage() {
     console.log(cart);
 
     function handleAddToCart(event) {
-        navigate('/auth')
+        navigate('/webshop/auth')
     }
 
     return (

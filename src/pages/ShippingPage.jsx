@@ -15,7 +15,7 @@ function ShippingPage() {
     const navigate = useNavigate();
 
     function goToNext(event) {
-        navigate('/payment')
+        navigate('/webshop/payment')
     }
     return (
         <div className={styles.parent_ShippingPage}>
