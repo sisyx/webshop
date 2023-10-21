@@ -2,6 +2,7 @@ import { useContext, useState } from 'react'
 import styles from './CartProduct.module.css'
 import { StateContext } from '../Contexts/Conetxts'
 import Counter from '../components/Counter'
+import Img from './Img';
 function CartProduct({id}) {
     const { state, dispatch } = useContext(StateContext);
     const { cart } = state
@@ -54,7 +55,7 @@ function CartProduct({id}) {
 
                         <div className={styles.left_productSec}>
 
-                            <img className={styles.image_product} src="/images/image.svg" alt="" />
+                            <Img cls={styles.image_product} src="/images/image.svg"/>
 
                         </div>
 

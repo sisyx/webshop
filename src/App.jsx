@@ -44,18 +44,15 @@ function App() {
     <>
       <Header cartCount={state.cart.length} />
         <StateContext.Provider value={{state, dispatch, goBack}}>
-        <Routes >
-          <Route index element={<HomeLayout />} />
-          <Route path='/product' element={<Product />} />
-          <Route path='/cart' element={<CardPage />} />
-          <Route path='/auth' element={<Authentication />} />
-          <Route path='/shipping' element={<ShippingPage />} />
-          <Route path='/payment' element={<PaymentPage />} />
-          <Route path='/thanks' element={<ThanksPage />} />
-          {/* <Authentication /> */}
-          {/* <CardPage /> */}
-          {/* <Product cart={state.cart} product={state.products.at(2)} dispatch={dispatch}/> */}
-          {/* <PaymentPage /> */}
+        <Routes>
+          <Route path='/webshop' element={<HomeLayout />} />
+          <Route path='/webshop/product' element={<Product />} />
+          <Route path='/webshop/cart' element={<CardPage />} />
+          <Route path='/webshop/auth' element={<Authentication />} />
+          <Route path='/webshop/shipping' element={<ShippingPage />} />
+          <Route path='/webshop/payment' element={<PaymentPage />} />
+          <Route path='/webshop/thanks' element={<ThanksPage />} />
+          <Route path='*' element={<h1>Page Not Found</h1>} />
         </Routes>
       </StateContext.Provider>
       <Footer />
