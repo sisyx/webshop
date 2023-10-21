@@ -1,0 +1,70 @@
+.right_price_count_settings {
+    border: 1px solid var(--green, #56B280);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    box-sizing: content-box;
+    padding: 0;
+
+    /* text-align: center; */
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* font-family: Roboto; */
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 1.6rem; */
+    letter-spacing: -0.05625rem;
+}
+.right_price_count_btn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: var(--green, #56B280);
+    font-size: 1.2em;
+    flex: 1;
+    /* margin: 2px; */
+    height: 25px;
+    width: 25px;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 100ms, opacity 30ms;
+}
+
+.right_price_count_btn img {
+    width: 10px;
+}
+.right_price_count_btn:hover {
+    color: white;
+    background-color: var(--green, #56B280);
+}
+.right_price_count_btn:active {
+    opacity: 0.5;
+}
+.right_price_count_count {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: var(--green, #56B280);
+    font-size: 1.2em;
+    /* flex: 1; */
+    /* margin: 2px; */
+    height: 25px;
+    width: fit-content;
+    /* aspect-ratio: 1/1; */
+}
+
+.right_price_count {}
+.right_price_count_text {}
+.right_price_count_settings {}
+.right_price_count_count {}
+.right_price_count_btn {}
+.right_buy {
+    grid-column: 1/7;
+    background: none;
+}

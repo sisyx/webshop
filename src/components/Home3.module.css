@@ -1,0 +1,184 @@
+.parentHome3{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background:#F7F8FA;
+    padding-top: 131px;
+    padding-bottom: 131px;
+}
+.leftHome3{
+  /* width: 594px;
+  height: 446px; */
+  /* background-image: url("../../../public/image/mockups.svg"); */
+  background-repeat: no-repeat;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0)
+}
+.leftHome3 img {
+  width: 100%;
+}
+
+.rightHome3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* width: 594px; */
+  /* height: 446px; */
+    gap: 10px;
+  }
+  @media (max-width: 1110px) {
+    .parentHome3 {
+      flex-direction: column;
+      padding-bottom: 49px;
+    }
+    .leftHome3,
+    .rightHome3 {
+      width: 100vw;
+      max-width: 594px;
+      /* height: fit-content; */
+      /* max-height: 446px; */
+    }
+    .rightHome3 {
+      justify-content: center;
+      padding: 20px;
+    }
+  }
+  
+  .titleLeftHome3{
+    width: 50%;
+    /* height: 105px; */
+    color: #1D252C;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 46.6px; /* 116.5% */
+letter-spacing: -0.9px;
+}
+@media (max-width: 1110px) {
+  .titleLeftHome3 {
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+}
+.textLeftHome3{
+/* width: 350px; */
+height: 25px;
+color: var(--green, #56B280);
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22.8px; /* 142.5% */
+}
+
+.featureLeftHome3{
+    gap: 10px;
+    /* width: 100%; */
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+  } 
+  li {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 1.3em;  /* space to preserve indentation on wrap */
+    margin: 5px 0;
+  }
+  li:before {
+    content: '';  /* placeholder for the SVG */
+    position: absolute;
+    left: 0;  /* place the SVG at the start of the padding */
+    width: 1em;
+    height: 1em;
+    background-image: url('../../../public/image/checkmark-circle-outline\ 1.svg');
+    background-repeat: no-repeat;
+}
+
+.button {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding-block: 0.5rem;
+    padding-inline: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    gap: 10px;
+    font-weight: bold;
+    border: 3px solid #ffffff4d;
+    outline: none;
+    overflow: hidden;
+    font-size: 15px;
+    border-radius: 10px;
+    background: var(--green, #56B280);
+    padding: 10px 20px;
+    width: fit-content;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+    border-color: #fff9;
+  }
+  
+  .button:hover .icon {
+    transform: translate(4px);
+  }
+  
+  .button:hover::before {
+    animation: shine 1.5s ease-out infinite;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0) 70%
+    );
+    top: 0;
+    left: -100px;
+    opacity: 0.6;
+  }
+  
+  @keyframes shine {
+    0% {
+      left: -100px;
+    }
+  
+    60% {
+      left: 100%;
+    }
+  
+    to {
+      left: 100%;
+    }
+  }
+  
+
+
+
+  .downLeftHome3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+  }

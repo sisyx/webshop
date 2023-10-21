@@ -1,0 +1,700 @@
+/* general */
+.input {
+    flex: 1;
+    height: 100%;
+    transition: all 300ms;
+}
+.input:focus {
+    font-size: 1.2rem;
+}
+
+.parent_Authentication {
+    display: flex;
+    width: 100vw;
+    max-width: 1110px;
+    background: conic-gradient(#F2F2F2 50%, #FFF 50% );
+}
+@media (max-width: 1110px) {
+    .parent_Authentication {
+        flex-direction: column;
+        background: #FFF;
+    }
+}
+.right_Authentication {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 50%;
+
+}
+
+.parent_right_Authentication {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    /* height: 500px; */
+    padding: 20px 0;
+    gap: 20px
+}
+
+.up_parent_Authentication {
+    display: flex;
+    justify-content: center;
+    width: 411px;
+    height: 136px;
+}
+
+.copun_parent_Authentication {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 411px;
+    height: 40px;
+    gap: 20px;
+}
+
+
+.input_style {
+    padding-left: 10px;
+    border: 2px solid #ccc;
+    border-radius: 0;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    direction: ltr;
+    /* width: 220px; */
+    height: 40px;
+}
+
+.input_style:focus {
+    border-color: #56B280;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.not_full_input {
+    border-color: red !important;
+    box-shadow: 0 0 0 0.2rem rgb(255, 0, 0) !important;
+    outline-color: red;
+    animation: vibrate-small 500ms 1;
+}
+@keyframes vibrate-small {
+    20% {
+        rotate: -2deg;
+    }
+    40% {
+        rotate: 1deg;
+    }
+    60% {
+        rotate: -1deg;
+    }
+    80% {
+        rotate: 2deg;
+    }
+}
+
+
+.button {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    color: white;
+    border-radius: 4px;
+    background: #56B280;
+}
+
+.button:hover {
+    background: rgb(2, 0, 36);
+    background-color: #2ea865;
+}
+
+.button:active {
+    transform: translate(0em, 0.2em);
+}
+
+.down_parent_Authentication {
+    width: 411px;
+    height: 150px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.all_down_parent_Authentication {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    direction: ltr;
+}
+
+.vasat_down_parent_Authentication {
+    width: 100%;
+    height: 36px;
+    background-color: #56B280;
+
+}
+
+.paeen_down_parent_Authentication {
+    width: 100%;
+    height: 36px;
+    background-color: #56B280;
+
+}
+
+.line_Authentication {
+    width: 100vw;
+    max-width: 410.001px;
+    height: 1px;
+    background: rgba(86, 178, 128, 0.20);
+}
+
+.couner_Authentication {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    background-color: #56B280;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-5px);
+
+}
+
+.number_counter {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.right_up_parent_Authentication {
+    width: 255px;
+    height: 37px;
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57.6px;
+    /* 360% */
+    letter-spacing: -0.9px;
+}
+
+.price_Authentication {
+    display: flex;
+    justify-content: end;
+    width: 200px;
+    height: 59px;
+    color: var(--green, #56B280);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 57.6px;
+    /* 274.286% */
+    letter-spacing: -0.9px;
+}
+
+.left_up_parent_Authentication {
+    position: relative;
+}
+
+.image_Authentication {
+    position: relative;
+}
+
+.productName_Authentication {
+    display: flex;
+    justify-content: center;
+}
+
+.label_Authentication {
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+    /* 182.857% */
+    letter-spacing: -0.9px;
+}
+
+.price_Authentication {
+    color: var(--black, #272727);
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+    /* 182.857% */
+    letter-spacing: -0.9px;
+}
+
+.shiping_Authentication {
+    color: #616161;
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+    /* 182.857% */
+}
+
+.price_Authentication2 {
+    color: var(--black, #272727);
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+    /* 106.667% */
+    letter-spacing: -0.9px;
+}
+
+.left_Authentication {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.parent_left_Authentication {
+    width: 446px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.parent_steps {
+    width: 100%;
+    /* height: 27px; */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: end;
+    gap: 7px;
+}
+
+.parent_contact {
+    width: 100%;
+    /* height: 111px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.parent_shipingAddress {
+    width: 100%;
+    /* height: 400px; */
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.backButton_Auth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+    /* height: 50px; */
+}
+
+.step1 {
+    color: var(--green, #56B280);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+    /* 160% */
+    letter-spacing: -0.9px;
+}
+
+.step3 {
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+    /* 160% */
+    letter-spacing: -0.9px;
+}
+
+.step4 {
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+    /* 160% */
+    letter-spacing: -0.9px;
+}
+
+.sec_title_auth {
+    width: 100%;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.sec_input_big {
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+
+
+.sec_Check_auth {
+    width: 100%;
+    height: 23px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+
+.title_auth {
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+    /* 128% */
+    letter-spacing: -0.9px;
+}
+
+.login_auth {
+    color: #616161;
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+    /* 182.857% */
+    letter-spacing: -0.9px;
+    /* margin-left: 205px; */
+}
+.Khode_login_auth {
+    display: flex;
+    gap: 5px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.Khode_login_auth a {
+    color: var(--green, #56B280);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+    letter-spacing: -0.9px;
+}
+
+/* check box */
+/* Hide the default checkbox */
+.container .input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.container {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+    user-select: none;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 1.3em;
+    width: 1.3em;
+    background-color: #e5e5e5;
+    border-radius: 50%;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container .input:checked~.checkmark {
+    background-color: seagreen;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 0.45em;
+    top: 0.25em;
+    width: 0.25em;
+    height: 0.5em;
+    border: solid white;
+    border-width: 0 0.15em 0.15em 0;
+    transform: rotate(45deg);
+}
+
+.shipping_title {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 26px;
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+    /* 128% */
+    letter-spacing: -0.9px;
+}
+
+.inputName_shipping {
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.input_shipping {
+    display: flex;
+    flex: 1;
+}
+.input_shipping .input {
+    width: 100%;
+}
+
+.inputAddress_shipping {
+    width: 100%;
+}
+
+.inputAddress_shipping {
+    width: 100%;
+    display: flex;
+}
+
+.inputNote_shipping {
+    width: 100%;
+    display: flex;
+}
+
+.inputNote_shipping .input {
+    width: 100%;
+}
+
+.city_inputs_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+.city_input {
+    min-width: 10px;
+}
+.secCheck_shipping {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.icon_dropdown svg {
+    position: absolute;
+    top: 18px;
+    right: 14px;
+}
+
+.dropdown_Province {
+    position: relative;
+    display: flex;
+    flex: 1;
+}
+
+.line_dropdo {
+    width: 0.25px;
+    height: 28px;
+    background: rgba(137, 137, 137, 0.50);
+    position: absolute;
+    top: 8px;
+    right: 40px;
+
+    display: flex;
+}
+.line_dropdo svg {
+    display: block;
+    height: 10px;
+    width: 10px;
+
+}
+
+.label_dropDown {
+    width: 91px;
+    height: 9px;
+    flex-shrink: 0;
+    position: relative;
+    top: -3px;
+    right: 42px;
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.text_dropdown {
+    position: absolute;
+    width: 91px;
+    height: 17px;
+    flex-shrink: 0;
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 18px;
+    left: -24px;
+}
+
+.inputDropDown_shipping {
+    width: 100%;
+}
+
+.inputDropDown_shipping .input {
+    width: 100%;
+}
+
+.dropdown_Coutry {
+    position: relative;
+    display: flex;
+}
+
+.text_dropdownCountry {
+    position: absolute;
+    width: 91px;
+    height: 17px;
+    flex-shrink: 0;
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 18px;
+    left: -50px;
+}
+
+.label_dropDownCountry {
+    width: 91px;
+    height: 9px;
+    flex-shrink: 0;
+    position: relative;
+    top: -3px;
+    right: 321px;
+    color: #616161;
+    font-feature-settings: 'clig' off,
+        'liga' off;
+    font-family: Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.back_to_card a {
+    color: var(--green, #56B280);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+    /* 142.222% */
+    letter-spacing: -0.9px;
+    text-decoration-line: underline;
+}
+.input_copun {
+    /* width: 100%; */
+    flex: 1;
+    display: flex;
+}
+.input_copun .input {
+    width: 100%;
+}
+
+@media (max-width: 1110px) {
+    .left_Authentication {
+        width: 100%;
+        justify-content: center;
+    }
+    .parent_contact,
+    .parent_shipingAddress,
+    .button_shipping {
+        width: 95%;
+    }
+    .button_shipping .button {
+        width: 100%;
+    }
+    .backButton_Auth {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .input:focus {
+        font-size: 1.1rem;
+    }
+}

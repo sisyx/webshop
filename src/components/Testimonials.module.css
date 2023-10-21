@@ -1,0 +1,97 @@
+.parentTestimonials {
+    width: 100%;
+    /* height: 601px; */
+    background: rgba(86, 178, 128, 0.10);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.upTestimonials {
+    max-width: 1110px;
+    width: 100vw;
+    /* height: 100px; */
+}
+
+.titleUpTestimonials {
+    /* height: 50px; */
+    color: #0B254B;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57.6px;
+    /* 144% */
+    letter-spacing: -0.9px;
+}
+
+.desUpTestimonials {
+    color: var(--dark-1, #5E6E89);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.6px;
+    /* 153.333% */
+    letter-spacing: 0.1px;
+}
+
+.downTestimonials {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1110px;
+    width: 100vw;
+    /* height: 322px; */
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 6px 30px 0px rgba(139, 167, 178, 0.16);
+    padding: 25px;
+}
+
+.starTestimonials {
+    width: 145.946px;
+    height: 24px;
+}
+
+.title_Testimonials {
+    /* width: 230px; */
+    /* height: 60px; */
+    color: #1D293F;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.8px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.authorTestimonials {
+    /* width: 320px; */
+    /* height: 23px; */
+    color: #7C8087;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,0 +1,434 @@
+.parent_paymentPage {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+.right_paymentpage {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    /* height: 100%; */
+    background-color: #F2F2F2;
+}
+
+.parent_right_paymentpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    gap: 20px
+}
+
+.up_parent_paymentpage {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 411px;
+    height: 136px;
+}
+
+.copun_parent_paymentpage {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 411px;
+    height: 40px;
+    gap: 20px;
+}
+
+.input_coupon {
+    flex: 3;
+    height: 100%;
+    border-radius: 0;
+    border-style: solid;
+}
+.copun_parent_paymentpage div {
+    flex: 2;
+}
+
+
+
+
+
+.button {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    color: white;
+    border-radius: 4px;
+    background-color: #56B280;
+}
+
+.button:hover {
+    background: #448e65;
+}
+
+.button:active {
+    transform: translate(0em, 0.2em);
+}
+
+.down_parent_paymentpage {
+    width: 411px;
+    height: 150px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.all_down_parent_paymentpage {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    direction: ltr;
+}
+
+.vasat_down_parent_paymentpage {
+    width: 100%;
+    height: 36px;
+    background-color: #56B280;
+
+}
+
+.paeen_down_parent_paymentpage {
+    width: 100%;
+    height: 36px;
+    background-color: #56B280;
+
+}
+
+.line_paymentpage {
+    width: 410.001px;
+    height: 1px;
+    background: rgba(86, 178, 128, 0.20);
+}
+
+.couner_paymentpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    background-color: #56B280;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-5px);
+
+}
+
+.number_counter {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.right_up_parent_paymentpage {
+    width: 255px;
+    height: 37px;
+    color: var(--black, #272727);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57.6px;
+    /* 360% */
+    letter-spacing: -0.9px;
+}
+
+.left_up_parent_paymentpage {
+    position: relative;
+}
+
+.price_paymentpage {
+    display: flex;
+    justify-content: end;
+    width: 200px;
+    height: 59px;
+    color: var(--green, #56B280);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 57.6px;
+    /* 274.286% */
+    letter-spacing: -0.9px;
+}
+
+/* left */
+
+.leftpaymentPage {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    /* height: 1100px; */
+}
+
+.parent_leftpaymentPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    max-width: 445px;
+    width: 100vw;
+    height: 1000px;
+    gap: 50px;
+}
+
+/* .parent_steps2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 30px;
+    gap: 10px;
+} */
+
+.summaryInfo_pay {
+    width: 100%;
+    height: 180px;
+    border-radius: 7px;
+    border: 1px solid rgba(86, 178, 128, 0.20);
+}
+
+.parent_summaryInfo {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 15px;
+}
+
+.credit_card{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.up_credit{
+    width: 100%;
+    height: 30px;
+}
+
+.title_credit{
+    color: var(--black, #272727);
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 25.6px; /* 128% */
+letter-spacing: -0.9px;
+}
+
+.down_credit{
+    width: 100%;
+    height: 260px;
+}   
+
+.bg_credit{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(86, 178, 128, 0.20);
+    border-radius: 5px;
+}
+
+.icon_bg_credit{
+    padding: 0 15px;
+}
+
+.inputs_credit{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 12px;
+    padding: 24px 0;
+}
+
+
+
+
+
+.sec_Expiration__cvv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 14px;
+}
+.input_Expiration, 
+.input_cvv {
+    flex: 1;
+}
+.input_Card{
+    position: relative; 
+    display: flex;
+    width: 100%;
+}
+
+.inputs{
+    flex: 1;
+    height: 35px;
+    height: 34px;
+    border-radius: 10px;
+    outline: none;
+    position: relative;
+    border-color: #A8A8A8;
+}
+
+.small_inputs{
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    outline: none;
+    position: relative; 
+    border-color: #A8A8A8;
+
+}
+
+.svg_icone{
+    right: 6px;
+    position: absolute;
+    top: 9px;
+}
+
+.input_cvv{
+    position: relative;
+}
+
+.title_taxInfo{
+    color: var(--black, #272727);
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 25.6px; /* 128% */
+letter-spacing: -0.9px;
+width: 100%;
+height: 30px;
+}
+
+
+.taxInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.VAT_numberInput,
+.pec_input {
+    flex: 1;
+    width: 100%;
+    display: flex;
+}
+.title_Billding{
+    color: var(--black, #272727);
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 25.6px; /* 128% */
+letter-spacing: -0.9px;
+width: 100%;
+height: 30px;
+}
+
+.bgBillding_check{
+    width: 100%;
+    /* height: 120px; */
+    padding: 20px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    direction: rtl;
+}
+
+.downMethod_ShippingPage {
+    display: flex;
+    align-items: center;
+    direction: ltr;
+    width: 100%;
+}
+
+.downMethod_Billding{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.backButton_Billding{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.steps {
+    flex-direction: row-reverse;
+    direction: rtl;
+}
+.cartjr {
+    justify-content: flex-start;
+}
+.mbcartjr {
+    direction: rtl;
+}
+@media (max-width: 1110px) {
+    .parent_paymentPage {
+        flex-direction: column;
+    }
+    .leftpaymentPage {
+        width: 100%;
+        justify-content: center;
+    }
+    .parent_leftpaymentPage {
+        padding: 10px;
+    }
+    .backButton_Billding {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .billding_address {
+        width: 100%;
+    }
+    .button_shipping {
+        width: 100%;
+    }
+    .button_shipping .button {
+        width: 100%;
+    }
+    .line_paymentpage {
+        width: unset;
+    }
+}
